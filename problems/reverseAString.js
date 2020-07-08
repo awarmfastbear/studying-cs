@@ -1,5 +1,6 @@
 
 // author: Ian Seiler
+// July 7th, 2020
 // given a string, display it in a reversed order.
 
 // reverseStr("cat") => "tac"
