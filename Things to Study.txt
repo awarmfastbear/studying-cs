@@ -1,0 +1,30 @@
+
+
+Data Structures - What is it? Organizing data inside of memory in different ways. 
+
+- Strings
+- HashMaps ??
+- LinkedLists ??
+- Arrays
+- Maps
+
+
+
+
+Algorithms
+
+- Frequency counter
+- Multiple Pointers
+
+
+
+
+
+System Design
+
+
+
+
+
+Architecture
+
