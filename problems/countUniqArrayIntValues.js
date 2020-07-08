@@ -14,9 +14,10 @@
 // the pointers will move forward together looking for unique values.
 //
 
-
-
 function countUniqueArrayIntValues(intArray1) {
+
+    // return 0 if input is null, or array is less than 1
+    if (!intArray1 || intArray1 < 1) return 0;
 
     let i = 0;
     for (var j = 1; j < intArray1.length; j++) {
@@ -28,6 +29,7 @@ function countUniqueArrayIntValues(intArray1) {
     }
 
     console.log(i+1);
+    return (i+1);
 
 };
 
