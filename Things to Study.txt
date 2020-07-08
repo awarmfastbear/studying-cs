@@ -1,12 +1,29 @@
+1 bit = ???
+1 byte = 8 bits
+
+Misc - 
+
+- Methods - Also known as functions, perform actions while properties only describe things.
+- Properties - Used to describe a value or type. Strings have length properties to allow you to easily find the length of them.
+
 
 
 Data Structures - What is it? Organizing data inside of memory in different ways. 
 
-- Strings
+- booleans - a data type holding a true or false value
+- Strings - A string of characters, typically letters and numbers inclosed in quotes. e.g. "Boop 123"
+- integer - a whole number (1)
+- Floats - a numeric data type containing smaller numbers with low precision (32bits) => 3.14
+- Doubles - a data type that can contain medium sized numbers with decent precision (64bit length) => 3.14159265359
+- Decimals - a data type that is capable of containing very large numbers with high precision (128bits) => 3.14159265358979323846264338327950288419716939937510582097494459230781
 - HashMaps ??
 - LinkedLists ??
-- Arrays
-- Maps
+- Arrays - A zero based sorted group of objects (strings, ints, maps, etc), typically letters, numbers, or both. Objects are accessible by calling their index location.
+ e.g. array1 = ["hello", "world", 42];
+$ print(array1[0]) => "hello"
+
+- Maps - An unsorted dictionary of key values that can contain other objects like: arrays, strings, ints, etc. 
+map1 = { {"id": 1, "data": {"name":"john doe", "age": 52, } } }
 
 
 
@@ -17,6 +34,12 @@ Algorithms
 - Multiple Pointers
 
 
+- Quick sort
+- Merge sort
+- Bucket sort
+- VSS
+
+- Dikstra
 
 
 
@@ -28,3 +51,16 @@ System Design
 
 Architecture
 
+
+
+Problem Solving
+
+
+- Step back, look at the question. Understand what the inputs are. See if you can understand what the desired output looks like first. Try and write down the inputs and the outputs together.
+
+E.g. # Write a function that compares two arrays, return true if the second array has the squared values of the first array, else return false.
+Input
+[1,2,3,1]
+output
+[1,4,9,1]
+answer: true
