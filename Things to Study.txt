@@ -5,8 +5,10 @@ Misc -
 
 - Methods - Also known as functions, perform actions while properties only describe things.
 - Properties - Used to describe a value or type. Strings have length properties to allow you to easily find the length of them.
-
-
+- Recursion - A process that calls itself. Typically a process of breaking down input into smaller pieces until you reach an end condition
+  - Two essential functions. 
+    1) Base case. What the end condition will be.
+    2) Processing different input.
 
 Data Structures - What is it? Organizing data inside of memory in different ways. 
 
